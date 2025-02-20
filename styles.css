@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.person-img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgb(208, 208, 208);
+  margin-top: 2rem;
+}
+
+.intro {
+  width: 70%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.technologies-wrapper {
+  width: 70%;
+}
+
+.technologies {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.technologie {
+  border: 1px solid rgb(159, 159, 159);
+  background-color: rgb(49, 49, 49);
+  color: white;
+  padding: 0.5rem 1rem;
+  letter-spacing: 1px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.technologie:hover {
+  scale: 1.05;
+}
+
+.contacts-wrapper {
+  margin-top: 3rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover {
+  color: rgb(43, 226, 101);
+}
